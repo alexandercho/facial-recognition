@@ -2,8 +2,7 @@
   "name": "facial-recognition",
   "version": "1.0.0",
   "description": "A facial recognition app that can recognize previously uploaded faces",
-  "main": "index.js",
-  "type": "module",
+  "main": "app.js",
   "repository": "https://github.com/alexandercho/facial-recognition",
   "author": "Alexander Cho",
   "license": "MIT",
@@ -15,7 +14,7 @@
     "nodemon": "^3.1.11"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   }
 }
